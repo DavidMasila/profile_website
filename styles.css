@@ -1,0 +1,229 @@
+* {
+    margin: 5px;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url('default.jpg');
+    background-color: black;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    font-size: 18px;
+    color: white;
+}
+
+
+#header {
+    width: 100%;
+}
+
+.nav {
+    margin: 0;
+    padding: 0;
+    background-image: linear-gradient(to bottom, rgb(130, 23, 139), black);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 70px;
+}
+
+.img-logo {
+    height: 50px;
+    width: 200px;
+}
+
+nav ul {
+    margin-right: 20px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    list-style: none;
+    padding: 10px;
+}
+
+nav ul li a {
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 7px;
+}
+
+nav ul li a:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px purple solid;
+    box-shadow: 5px 5px 10px 2px rgb(130, 23, 139);
+}
+
+.content {
+    position: static;
+    max-width: 950px;
+    margin: 7vh auto;
+}
+
+.intro {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+    box-shadow: 5px 5px 10px 1px rgb(130, 23, 139);
+}
+
+.profile-img img {
+    height: 300px;
+    width: 300px;
+    border-radius: 20px;
+}
+
+.name {
+    font-family: 'Varela Round', sans-serif;
+    font-size: 40px;
+    color: #af3ba5;
+}
+
+.description p {
+    text-align: justify;
+}
+
+.details {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 30px;
+}
+
+.details-content {
+    border-radius: 15px;
+    background-color: rgb(10, 9, 9);
+    box-shadow: 2.5px 2.5px 6px 2px rgb(130, 23, 139);
+    font-size: 0.9em;
+    padding: 0;
+    margin: 0;
+}
+
+.langs {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.langs ul {
+    list-style: none;
+}
+
+.school {
+    margin-top: 5px;
+    border-bottom: 1px solid greenyellow;
+}
+
+.work-roles ul {
+    list-style: none;
+}
+
+#projects-done {
+    padding: 30px 0;
+}
+
+.projects-done {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    margin-top: 30px;
+    text-align: center;
+}
+
+/* .projects-done {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    border: 1px red solid;
+    margin-top: 30px;
+} */
+
+.projects-done div {
+    background-color: rgb(5, 5, 5);
+    box-shadow: 2.5px 2.5px 6px 2px rgb(130, 23, 139);
+    height: 300px;
+    padding: 100px 50px;
+    border-radius: 15px;
+    transition: background 0.5s, transform 0.5s;
+    position: relative;
+}
+
+.projects-done div:hover {
+    transform: translateY(-10px);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: purple;
+
+}
+
+.django:hover {
+    background-image: url("django.jpg");
+}
+
+.flask:hover {
+    background-image: url("flask.png");
+}
+
+.data:hover {
+    background-image: url("data.png");
+}
+
+.projects-done div a {
+    align-items: center;
+    position: absolute;
+    text-decoration: none;
+    bottom: 40px;
+    align-items: center;
+    right: 100px;
+    color: white;
+    border: 1px rgb(88, 245, 57) solid;
+    background-color: black;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.projects-done div a:hover {
+    box-shadow: 1px 1px 1px 0.5px greenyellow;
+}
+
+#gitty a{
+    border-radius: 8px;
+    color: #fff;
+    text-decoration: underline;
+    font-size: 18px;
+    padding: 7px;
+}
+
+#gitty a:hover {
+    color: rgb(255, 255, 255);
+    border-bottom: 2px purple solid;
+    box-shadow: 5px 5px 10px 2px rgb(130, 23, 139);
+}
+
+.contact {
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    color: black;
+    padding: 20px;
+    width: 100%;
+}
+
+.contact ul li{
+    list-style: none;
+    display: inline-block;
+}
