@@ -30,7 +30,12 @@ body {
     align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-    height: 70px;
+}
+
+
+.nav::after {
+    content: '';
+    display: block;
 }
 
 .img-logo {
@@ -70,6 +75,7 @@ nav ul li a:hover {
 }
 
 .intro {
+    margin-top: 20px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -79,8 +85,8 @@ nav ul li a:hover {
 }
 
 .profile-img img {
-    height: 300px;
-    width: 300px;
+    height: 30vh;
+    width: 20vw;
     border-radius: 20px;
 }
 
