@@ -151,7 +151,7 @@ nav ul li a:hover {
     transition: background 0.5s, transform 0.5s;
 
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -162,7 +162,8 @@ nav ul li a:hover {
     background-size: cover;
     background-position: center;
     color: purple;
-    align-items: start;
+
+    align-items: center;
 }
 
 .django:hover {
@@ -178,10 +179,7 @@ nav ul li a:hover {
 }
 
 .projects-done div a {
-    position: absolute;
     text-decoration: none;
-    bottom: 40px;
-    right: 100px;
     color: white;
     border: 1px rgb(88, 245, 57) solid;
     background-color: black;
