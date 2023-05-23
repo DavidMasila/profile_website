@@ -25,17 +25,9 @@ body {
 .nav {
     margin: 0;
     padding: 0;
-    background-image: linear-gradient(to bottom, rgb(130, 23, 139), black);
     display: flex;
-    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
-}
-
-
-.nav::after {
-    content: '';
-    display: block;
 }
 
 .img-logo {
@@ -44,7 +36,6 @@ body {
 }
 
 nav ul {
-    margin-right: 20px;
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -80,7 +71,7 @@ nav ul li a:hover {
     flex-wrap: wrap;
     align-items: center;
     padding: 10px;
-    box-shadow: 5px 5px 10px 1px rgb(130, 23, 139);
+    box-shadow: 1px 3px 10px 1px rgb(130, 23, 139);
 }
 
 .profile-img img {
@@ -109,7 +100,7 @@ nav ul li a:hover {
 .details-content {
     border-radius: 15px;
     background-color: rgb(10, 9, 9);
-    box-shadow: 2.5px 2.5px 6px 2px rgb(130, 23, 139);
+    box-shadow: 1px 3px 10px 1px rgb(130, 23, 139);
     font-size: 0.9em;
     padding: 0;
     margin: 0;
@@ -148,7 +139,7 @@ nav ul li a:hover {
 
 .projects-done div {
     background-color: rgb(5, 5, 5);
-    box-shadow: 2.5px 2.5px 6px 2px rgb(130, 23, 139);
+    box-shadow: 1px 3px 10px 1px rgb(130, 23, 139);
     height: 300px;
     width: 300px;
     border-radius: 15px;
@@ -206,7 +197,7 @@ nav ul li a:hover {
 #gitty a:hover {
     color: rgb(255, 255, 255);
     border-bottom: 2px purple solid;
-    box-shadow: 5px 5px 10px 2px rgb(130, 23, 139);
+    box-shadow: 1px 3px 10px 1px rgb(130, 23, 139);
 }
 
 .contact {
